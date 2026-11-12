@@ -226,88 +226,15 @@ Jika proses kompilasi berhasil, program akan menampilkan menu utama Sistem Monit
 
 ## 9. DOKUMENTASI PENGUJIAN PROGRAM
 
-Pengujian dilakukan berdasarkan tujuh skenario yang terdapat dalam instruksi tugas.
-
-### PENGUJIAN 1: TAMBAH PRODUK
-
-Langkah:
-1. Pilih menu 2.
-2. Masukkan nama produk.
-3. Masukkan harga produk.
-4. Masukkan jumlah stok.
-5. Periksa melalui menu 1.
-
-Hasil yang diharapkan: Produk baru berhasil ditambahkan dan muncul dalam daftar produk.
-
-![Pengujian Tambah Produk](gambar1.jpeg)
-
-### PENGUJIAN 2: TRANSAKSI PENJUALAN
-
-Langkah:
-1. Pilih menu 4.
-2. Pilih produk yang ingin dibeli.
-3. Masukkan jumlah pembelian.
-4. Pilih produk lainnya jika diperlukan.
-5. Masukkan angka 0 untuk menyelesaikan transaksi.
-
-Hasil yang diharapkan: Subtotal dan total pembayaran ditampilkan dengan benar.
-
-![Pengujian Transaksi](gambar2.jpeg)
-
-### PENGUJIAN 3: PEMBARUAN STOK
-
-Langkah:
-1. Lakukan transaksi penjualan.
-2. Pilih menu 1.
-3. Periksa stok produk.
-
-Hasil yang diharapkan: Stok berkurang dan jumlah produk terjual bertambah.
-
-![Pengujian Pembaruan Stok](gambar3.jpeg)
-
-### PENGUJIAN 4: STOK TIDAK MENCUKUPI
-
-Langkah:
-1. Pilih menu 4.
-2. Pilih salah satu produk.
-3. Masukkan jumlah pembelian melebihi stok.
-
-Hasil yang diharapkan: Pembelian ditolak dan stok tidak berubah.
-
-![Pengujian Stok Tidak Cukup](gambar4.jpeg)
-
-### PENGUJIAN 5: LAPORAN PENJUALAN
-
-Langkah:
-1. Lakukan beberapa transaksi.
-2. Pilih menu 8.
-3. Periksa laporan penjualan.
-
-Hasil yang diharapkan: Program menampilkan jumlah setiap produk yang terjual, total unit, total pendapatan, dan produk terlaris.
-
-![Pengujian Laporan](gambar5.jpeg)
-
-### PENGUJIAN 6: PENGURUTAN PRODUK
-
-Langkah:
-1. Pilih menu 7.
-2. Pilih pengurutan berdasarkan harga atau jumlah terjual.
-3. Periksa hasil pengurutan.
-
-Hasil yang diharapkan: Produk terurut sesuai pilihan.
-
-![Pengujian Pengurutan](gambar6.jpeg)
-
-### PENGUJIAN 7: PENCARIAN DAN CEK STOK
-
-Langkah:
-1. Pilih menu 6 untuk mencari produk.
-2. Masukkan nama produk.
-3. Pilih menu 9 untuk mengecek stok menipis.
-
-Hasil yang diharapkan: Produk ditemukan sesuai nama dan produk dengan stok kurang dari 5 ditampilkan.
-
-![Pengujian Pencarian dan Stok](gambar7.jpeg) & ![Pengujian Pencarian dan Stok](gambar8.jpeg)
+| No. | Skenario | Input atau Tindakan | Hasil yang Diharapkan | Bukti Screenshot |
+| :---: | :--- | :--- | :--- | :---: |
+| 1 | *Tambah produk* | Memilih menu 2, memasukkan produk baru Burger, harga 11000, stok 15 | Produk Burger berhasil disimpan dan muncul dalam daftar produk (Menu 1) | ![gambar1.jpeg](gambar1.jpeg) |
+| 2 | *Transaksi* | Memilih menu 4, membeli produk makanan yang ada pada menu dalam 1 transaksi | Subtotal tiap barang dan total pembayaran terhitung dengan akurat pada struk | ![gambar2.jpeg](gambar2.jpeg) |
+| 3 | *Pembaruan stok* | Memeriksa data produk (Menu 1) setelah menyelesaikan transaksi pada skenario 2 | Stok Nasi Goreng, Es Teh & Gorengan berkurang, jumlah terjual bertambah | ![gambar3.jpeg](gambar3.jpeg) |
+| 4 | *Stok tidak cukup* | Memilih menu 4, membeli burger sejumlah 12 unit (melebihi stok yang ada ) | Transaksi ditolak dengan pesan peringatan; jumlah stok barang tetap/tidak berubah | ![gambar4.jpeg](gambar4.jpeg) |
+| 5 | *Laporan* | Memilih menu 8 (Laporan Penjualan) | Total unit terjual, total pendapatan kantin, & produk terlaris dihitung dengan benar | ![gambar5.jpeg](gambar5.jpeg) |
+| 6 | *Pengurutan* | Memilih menu 7, urutkan berdasarkan harga termurah dan jumlah penjualan terbanyak  | Urutan posisi produk pada daftar berubah sesuai dengan metode pengurutan yang dipilih (Jumlah penjualan terbanyak) | ![gambar6.jpeg](gambar6.jpeg) |
+| 7 | *Pencarian dan stok* | Memilih menu dan (Cek stok < 5) | Menampilkan hasil pencarian produk dan daftar peringatan barang bersisa < 5 | ![gambar7.jpe](gambar7.jpeg) & ![gambar8.jpeg](gambar8.jpeg) |
 
 ---
 
