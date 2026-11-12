@@ -181,7 +181,7 @@ Proyek-Array-C-NIM/
     ├── 02-tambah-gambar2.jpeg
     ├── 03-transaksi-gambar3.jpeg
     ├── 04-pembaruan-gambar4.jpeg
-    ├── 05-stok-tidak-gambar5.jpeg
+    ├── 05-stok-tidak-gamar5.jpeg
     ├── 06-laporan-gambar6.jpeg
     ├── 07-pengurutan-gambar7.jpeg
     └── 08-pencarian-gambar8.jpeg
@@ -232,7 +232,7 @@ Jika proses kompilasi berhasil, program akan menampilkan menu utama Sistem Monit
 | 2 | *Transaksi* | Memilih menu 4, membeli produk makanan yang ada pada menu dalam 1 transaksi | Subtotal tiap barang dan total pembayaran terhitung dengan akurat pada struk | ![gambar2.jpeg](gambar2.jpeg) |
 | 3 | *Pembaruan stok* | Memeriksa data produk (Menu 1) setelah menyelesaikan transaksi pada skenario 2 | Stok Nasi Goreng, Es Teh & Gorengan berkurang, jumlah terjual bertambah | ![gambar3.jpeg](gambar3.jpeg) |
 | 4 | *Stok tidak cukup* | Memilih menu 4, membeli burger sejumlah 12 unit (melebihi stok yang ada ) | Transaksi ditolak dengan pesan peringatan; jumlah stok barang tetap/tidak berubah | ![gambar4.jpeg](gambar4.jpeg) |
-| 5 | *Laporan* | Memilih menu 8 (Laporan Penjualan) | Total unit terjual, total pendapatan kantin, & produk terlaris dihitung dengan benar | ![gambar5.jpeg](gambar5.jpeg) |
+| 5 | *Laporan* | Memilih menu 8 (Laporan Penjualan) | Total unit terjual, total pendapatan kantin, & produk terlaris dihitung dengan benar | ![gamar5.jpeg](gamar5.jpeg) |
 | 6 | *Pengurutan* | Memilih menu 7, urutkan berdasarkan harga termurah dan jumlah penjualan terbanyak  | Urutan posisi produk pada daftar berubah sesuai dengan metode pengurutan yang dipilih (Jumlah penjualan terbanyak) | ![gambar6.jpeg](gambar6.jpeg) |
 | 7 | *Pencarian dan stok* | Memilih menu dan (Cek stok < 5) | Menampilkan hasil pencarian produk dan daftar peringatan barang bersisa < 5 | ![gambar7.jpe](gambar7.jpeg) & ![gambar8.jpeg](gambar8.jpeg) |
 
