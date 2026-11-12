@@ -177,14 +177,14 @@ Proyek-Array-C-NIM/
 ├── README.md
 │
 └── screenshot/
-    ├── 01-daftar-produk.png
-    ├── 02-tambah-produk.png
-    ├── 03-transaksi-penjualan.png
-    ├── 04-pembaruan-stok.png
-    ├── 05-stok-tidak-cukup.png
-    ├── 06-laporan-penjualan.png
-    ├── 07-pengurutan-produk.png
-    └── 08-pencarian-dan-stok.png
+    ├── 01-daftar-gambar1.jpeg
+    ├── 02-tambah-gambar2.jpeg
+    ├── 03-transaksi-gambar3.jpeg
+    ├── 04-pembaruan-gambar4.jpeg
+    ├── 05-stok-tidak-gambar5.jpeg
+    ├── 06-laporan-gambar6.jpeg
+    ├── 07-pengurutan-gambar7.jpeg
+    └── 08-pencarian-gambar8.jpeg
 ```
 
 ---
@@ -239,7 +239,7 @@ Langkah:
 
 Hasil yang diharapkan: Produk baru berhasil ditambahkan dan muncul dalam daftar produk.
 
-![Pengujian Tambah Produk](screenshot/02-tambah-produk.png)
+![Pengujian Tambah Produk](gambar1.jpeg)
 
 ### PENGUJIAN 2: TRANSAKSI PENJUALAN
 
@@ -252,7 +252,7 @@ Langkah:
 
 Hasil yang diharapkan: Subtotal dan total pembayaran ditampilkan dengan benar.
 
-![Pengujian Transaksi](screenshot/03-transaksi-penjualan.png)
+![Pengujian Transaksi](gambar2.jpeg)
 
 ### PENGUJIAN 3: PEMBARUAN STOK
 
@@ -263,7 +263,7 @@ Langkah:
 
 Hasil yang diharapkan: Stok berkurang dan jumlah produk terjual bertambah.
 
-![Pengujian Pembaruan Stok](screenshot/04-pembaruan-stok.png)
+![Pengujian Pembaruan Stok](gambar3.jpeg)
 
 ### PENGUJIAN 4: STOK TIDAK MENCUKUPI
 
@@ -274,7 +274,7 @@ Langkah:
 
 Hasil yang diharapkan: Pembelian ditolak dan stok tidak berubah.
 
-![Pengujian Stok Tidak Cukup](screenshot/05-stok-tidak-cukup.png)
+![Pengujian Stok Tidak Cukup](gambar4.jpeg)
 
 ### PENGUJIAN 5: LAPORAN PENJUALAN
 
@@ -285,7 +285,7 @@ Langkah:
 
 Hasil yang diharapkan: Program menampilkan jumlah setiap produk yang terjual, total unit, total pendapatan, dan produk terlaris.
 
-![Pengujian Laporan](screenshot/06-laporan-penjualan.png)
+![Pengujian Laporan](gambar5.jpeg)
 
 ### PENGUJIAN 6: PENGURUTAN PRODUK
 
@@ -296,7 +296,7 @@ Langkah:
 
 Hasil yang diharapkan: Produk terurut sesuai pilihan.
 
-![Pengujian Pengurutan](screenshot/07-pengurutan-produk.png)
+![Pengujian Pengurutan](gambar6.jpeg)
 
 ### PENGUJIAN 7: PENCARIAN DAN CEK STOK
 
@@ -307,7 +307,7 @@ Langkah:
 
 Hasil yang diharapkan: Produk ditemukan sesuai nama dan produk dengan stok kurang dari 5 ditampilkan.
 
-![Pengujian Pencarian dan Stok](screenshot/08-pencarian-dan-stok.png)
+![Pengujian Pencarian dan Stok](gambar7.jpeg) & ![Pengujian Pencarian dan Stok](gambar8.jpeg)
 
 ---
 
