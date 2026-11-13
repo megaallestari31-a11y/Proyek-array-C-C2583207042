@@ -6,8 +6,8 @@
 | Keterangan | Identitas |
 |---|---|
 | Nama | Mega Lestari |
-| NIM | Isi NIM Anda |
-| Kelas | PTI 3A / PTI 3B |
+| NIM | C2583207042 |
+| Kelas | PTI 3A |
 | Program Studi | Pendidikan Teknologi Informasi |
 | Fakultas | Fakultas Keguruan dan Ilmu Pendidikan |
 | Universitas | Universitas Muhammadiyah Tasikmalaya |
